@@ -8,31 +8,44 @@
 </head>
 <body>
   <div class="content">
-    <nav>
-      <a href="./"><img src="" alt="">THE BREAKFAST CLUB</a>
-      <ul>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
+    <nav class="navbar">
+      <a class="navbar__brand" href="./">
+        <img class="brand__logo" src="https://img.icons8.com/ios/32/000000/coffee-to-go.png"/>
+        <img class="brand__logo" src="https://img.icons8.com/ios/50/000000/bread-loaf.png"/>
+        <img class="brand__logo" src="https://img.icons8.com/ios/50/000000/sunny-side-up-eggs.png"/>
+        BREAKFAST CLUB
+      </a>
+
+      <ul class="navbar__menu">
+        <li class="menu__item"><a class="menu__link active" href="#" onclick="tabFocus(event, 'theClub')">The Club</a></li>
+        <li class="menu__item"><a class="menu__link" href="#" onclick="tabFocus(event, 'theBreakfast')">The Breakfast</a></li>
+        <li class="menu__item"><a class="menu__link" href="#" onclick="tabFocus(event, 'ourLocations')">Our Locations</a></li>
       </ul>
     </nav>
-
-    <div>
-      <img src="" alt="">
-      <h1></h1>
-      <p></p>
+  
+    <div id="theClub" class="hero-container tabcontent">
+      <div class="hero the-club">
+        <h2>
+        The<br>Breakfast<br>Club</h2>
+        <h3></h3>
+        <p>prepared with only natural </p>
+      </div>
     </div>
 
-    <div>
-      <img src="" alt="">
-      <h1></h1>
-      <p></p>
+    <div id="theBreakfast" class="hero-container tabcontent offscreen">
+      <div class="hero the-breakfast">
+        <h2>Breakfast</h2>
+        <h3></h3>
+        <p>hello with only natural </p>
+      </div>
     </div>
 
-    <div>
-      <img src="" alt="">
-      <h1></h1>
-      <p></p>
+    <div id="ourLocations" class="hero-container tabcontent offscreen">
+      <div class="hero our-locations"> onclick="tabFocus(event, 'ourLocations')"
+        <h2>Breakfast</h2>
+        <h3></h3>
+        <p>ready with only natural </p>
+      </div>
     </div>
   </div>
 
