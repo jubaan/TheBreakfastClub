@@ -17,9 +17,9 @@
       </a>
 
       <ul class="navbar__menu">
-        <li class="menu__item"><a class="menu__link active" href="#" onclick="tabFocus(event, 'theClub')">The Club</a></li>
-        <li class="menu__item"><a class="menu__link" href="#" onclick="tabFocus(event, 'theBreakfast')">The Breakfast</a></li>
-        <li class="menu__item"><a class="menu__link" href="#" onclick="tabFocus(event, 'ourLocations')">Our Locations</a></li>
+        <li class="menu__item"><a class="menu__link active" href="#" onclick="switchTab(event, 'theClub')">The Club</a></li>
+        <li class="menu__item"><a class="menu__link" href="#" onclick="switchTab(event, 'theBreakfast')">The Breakfast</a></li>
+        <li class="menu__item"><a class="menu__link" href="#" onclick="switchTab(event, 'ourLocations')">Our Locations</a></li>
       </ul>
     </nav>
   
@@ -41,7 +41,7 @@
     </div>
 
     <div id="ourLocations" class="hero offscreen">
-      <div class="hero__image our-locations"> onclick="tabFocus(event, 'ourLocations')"
+      <div class="hero__image our-locations">
         <h2 class="hero__title">Breakfast</h2>
         <h3></h3>
         <p>ready with only natural </p>
