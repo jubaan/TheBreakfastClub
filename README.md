@@ -65,6 +65,7 @@ See the [open issues](https://github.com/jubaan/TheBreakfastClub/issues) for a l
 <p align="center">
 
   Julio Añoveros - [@jubaan](https://github.com/jubaan)
+
 </p>
 <p align="center" style="display: flex; justify-content: center; align-items: center;">
     <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=julio.ab@outlook.com
