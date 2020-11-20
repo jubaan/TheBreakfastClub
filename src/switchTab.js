@@ -10,7 +10,9 @@ const switchTab = () => {
         hero.classList.add('offscreen');
       })
 
-      link.classList.remove('active');
+      menu__links.forEach((link) => {
+        link.classList.remove('active');
+      })
 
       document.getElementById(contentID).classList.remove('offscreen');
       e.currentTarget.classList.add('active');
