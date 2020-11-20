@@ -1,11 +1,11 @@
 import './main.css';
 import switchTab from  './switchTab';
-import navbar from './navbar';
-import hero from './hero';
+import Navbar from './navbar';
+import Hero from './hero';
 
 const content = document.querySelector('.content');
 
-content.appendChild(navbar());
-content.appendChild(hero());
+content.appendChild(new Navbar().navbar());
+content.appendChild(new Hero().hero());
 
 switchTab();

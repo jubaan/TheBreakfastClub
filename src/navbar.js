@@ -10,19 +10,21 @@ template.innerHTML = `
     </a>
 
     <ul class="navbar__menu">
-      <li class="menu__item"><a class="menu__link theClub active" href="#">The Club</a></li>
-      <li class="menu__item"><a class="menu__link theBreakfast" href="#">The Breakfast</a></li>
-      <li class="menu__item"><a class="menu__link ourLocations" href="#">Our Locations</a></li>
+      <li class="menu__item"><a data-type="theClub" class="menu__link theClub active" href="#">The Club</a></li>
+      <li class="menu__item"><a data-type="theBreakfast" class="menu__link theBreakfast" href="#">The Breakfast</a></li>
+      <li class="menu__item"><a data-type="ourLocations" class="menu__link ourLocations" href="#">Our Locations</a></li>
     </ul>
   </nav>
   <script src="./switchTab"></script>
 `;
 
-function navbar() {
-  const navbar = document.createElement('nav');
-  navbar.innerHTML = template.innerHTML;
+class Navbar {
+  navbar() {
+    const navbar = document.createElement('nav');
+    navbar.innerHTML = template.innerHTML;
 
-  return navbar;
+    return navbar;
+  }
 }
 
-export default navbar;
+export default Navbar;

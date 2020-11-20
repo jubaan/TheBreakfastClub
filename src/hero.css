@@ -11,14 +11,24 @@
   top: 0px;
   left: 30px;
   right: 30px;
-  bottom: 30px;
+  /* bottom: 30px; */
   border-radius: 10px;
   margin: auto;
+  padding: 100px 0;
+
 }
 
 .hero__title {
   font-family: 'Chango', cursive;
-  font-size: 6rem;
+  font-size: 3rem;
+}
+
+.hero__content {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.hero__title,
+.hero__content {
   color: #FFF;
   text-align: center;
 }
