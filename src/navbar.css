@@ -7,18 +7,14 @@
 
 .navbar__brand,
 .menu__link {
+  font-family: Helvetica, sans-serif;
   text-decoration: none;
 }
 
 .navbar {
   height: 50px;
-  padding: 0px 30px;
+  padding: 0 30px;
   justify-content: space-between;
-}
-
-.navbar__brand,
-.menu__link {
-  font-family: Helvetica, 'sans-serif';
 }
 
 .navbar__brand {
@@ -32,6 +28,7 @@
 
 .menu__link {
   color: #949396;
+  margin: 0 5px;
 }
 
 .navbar__brand,
@@ -42,8 +39,4 @@
 
 .menu__item {
   list-style-type: none;
-}
-
-.menu__link {
-  margin: 0 5px;
 }

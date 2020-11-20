@@ -24,7 +24,7 @@ template.innerHTML = `
 `;
 
 class Hero {
-  hero() {
+  hero() { //eslint-disable-line
     const hero = document.createElement('div');
 
     hero.innerHTML = template.innerHTML;

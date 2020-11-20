@@ -1,5 +1,5 @@
 import './main.css';
-import switchTab from  './switchTab';
+import switchTab from './switchTab';
 import Navbar from './navbar';
 import Hero from './hero';
 

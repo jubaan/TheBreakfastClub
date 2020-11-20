@@ -19,7 +19,7 @@ template.innerHTML = `
 `;
 
 class Navbar {
-  navbar() {
+  navbar() { // eslint-disable-line
     const navbar = document.createElement('nav');
 
     navbar.innerHTML = template.innerHTML;
