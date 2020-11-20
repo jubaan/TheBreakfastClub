@@ -10,9 +10,9 @@ template.innerHTML = `
     </a>
 
     <ul class="navbar__menu">
-      <li class="menu__item"><a class="menu__link active" href="#" onclick="switchTab(event, 'theClub')">The Club</a></li>
-      <li class="menu__item"><a class="menu__link" href="#" onclick="switchTab(event, 'theBreakfast')">The Breakfast</a></li>
-      <li class="menu__item"><a class="menu__link" href="#" onclick="switchTab(event, 'ourLocations')">Our Locations</a></li>
+      <li class="menu__item"><a class="menu__link theClub active" href="#">The Club</a></li>
+      <li class="menu__item"><a class="menu__link theBreakfast" href="#">The Breakfast</a></li>
+      <li class="menu__item"><a class="menu__link ourLocations" href="#">Our Locations</a></li>
     </ul>
   </nav>
   <script src="./switchTab"></script>
