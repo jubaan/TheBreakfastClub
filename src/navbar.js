@@ -1,57 +1,6 @@
 const template = document.createElement('template');
 
 template.innerHTML = `
-  <style>
-    .navbar,
-    .navbar__brand,
-    .navbar__menu {
-      display: flex;
-      align-items: center;
-    }
-
-    .navbar__brand,
-    .menu__link {
-      text-decoration: none;
-    }
-
-    .navbar {
-      height: 50px;
-      padding: 0px 30px;
-      justify-content: space-between;
-    }
-
-    .navbar__brand,
-    .menu__link {
-      font-family: Helvetica, 'sans-serif';
-    }
-
-    .navbar__brand {
-      font-weight: 700;
-    }
-
-    .brand__logo {
-      height: 24px;
-      margin-right: 10px;
-    }
-
-    .menu__link {
-      color: #949396;
-    }
-
-    .navbar__brand,
-    .menu__link:hover,
-    .menu__link.active {
-      color: #000;
-    }
-
-    .menu__item {
-      list-style-type: none;
-    }
-
-    .menu__link {
-      margin: 0 5px;
-    }
-  </style>
   <nav class="navbar">
     <a class="navbar__brand" href="./index.html">
       <img class="brand__logo" src="https://img.icons8.com/ios/32/000000/coffee-to-go.png"/>
@@ -69,12 +18,11 @@ template.innerHTML = `
   <script src="./switchTab"></script>
 `;
 
-class Navbar extends HTMLElement {
-  constructor() {
-    super();
-    this.shadow = this.attachShadow({ mode: 'open' });
-    this.shadowRoot.appendChild(template.content.cloneNode(true));
-  }
+function navbar() {
+  const navbar = document.createElement('nav');
+  navbar.innerHTML = template.innerHTML;
+
+  return navbar;
 }
 
-export default Navbar;
+export default navbar;
