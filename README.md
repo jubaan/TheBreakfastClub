@@ -33,7 +33,7 @@
 
 ## About The Project
 <em>Click on the image to visit the live version!</em>
-[![The Breakfast Club][product-screenshot]](https://raw.githack.com/jubaan/TheBreakfastClub/library/index.html)
+[![The Breakfast Club][product-screenshot]](https://elated-mestorf-358501.netlify.app)
 
 The Restaurant project includes funtionality as:
  - Switchts content dinamically by clicking on the navbar links.
