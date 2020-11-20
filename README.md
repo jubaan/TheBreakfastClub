@@ -2,7 +2,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 [![LinkedIn][linkedin-shield2]][linkedin-url2]
 
 <!-- PROJECT LOGO -->
@@ -62,7 +61,7 @@ See the [open issues](https://github.com/jubaan/TheBreakfastClub/issues) for a l
 <p align="center">
 
   Project Link: [https://github.com/jubaan/TheBreakfastClub](https://github.com/jubaan/TheBreakfastClub)
-
+</p>
 <p align="center">
 
   Julio Añoveros - [@jubaan](https://github.com/jubaan)
