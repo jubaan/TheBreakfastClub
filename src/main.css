@@ -3,3 +3,6 @@
 @import url('./navbar.css');
 @import url('./hero.css');
 
+body {
+  min-width: 768px;
+}

@@ -1,7 +1,7 @@
 const switchTab = () => {
-  let menu__links= [...document.getElementsByClassName('menu__link')];
+  let menuLinks= [...document.getElementsByClassName('menu__link')];
 
-  menu__links.forEach((link) => {
+  menuLinks.forEach((link) => {
     link.addEventListener('click', (e) => {
       const heros = [...document.getElementsByClassName('hero')];
       const contentID = link.dataset.type;
@@ -10,7 +10,7 @@ const switchTab = () => {
         hero.classList.add('offscreen');
       })
 
-      menu__links.forEach((link) => {
+      menuLinks.forEach((link) => {
         link.classList.remove('active');
       })
 

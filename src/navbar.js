@@ -21,6 +21,7 @@ template.innerHTML = `
 class Navbar {
   navbar() {
     const navbar = document.createElement('nav');
+
     navbar.innerHTML = template.innerHTML;
 
     return navbar;
