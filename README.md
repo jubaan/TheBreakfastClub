@@ -58,15 +58,8 @@ To have a local copy up and running follow the next steps:
 See the [open issues](https://github.com/jubaan/TheBreakfastClub/issues) for a list of proposed features (and known issues).
 
 ## Contact
-<p align="center">
-
-  Project Link: [https://github.com/jubaan/TheBreakfastClub](https://github.com/jubaan/TheBreakfastClub)
-</p>
-<p align="center">
-
-  Julio Añoveros - [@jubaan](https://github.com/jubaan)
-
-</p>
+<p align="center">Project Link: [https://github.com/jubaan/TheBreakfastClub](https://github.com/jubaan/TheBreakfastClub)</p>
+<p align="center">Julio Añoveros - [@jubaan](https://github.com/jubaan)</p>
 <p align="center" style="display: flex; justify-content: center; align-items: center;">
     <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=julio.ab@outlook.com
 ">
