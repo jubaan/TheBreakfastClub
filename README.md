@@ -14,7 +14,7 @@
     <a href="https://github.com/jubaan/TheBreakfastClub"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://raw.githack.com/jubaan/TheBreakfastClub/library/index.html">View Demo</a>
+    <a href="https://elated-mestorf-358501.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/jubaan/TheBreakfastClub/issues">Report Bug</a>
     ·
