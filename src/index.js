@@ -1,11 +1,15 @@
 import './main.css';
 import switchTab from './switchTab';
 import Navbar from './navbar';
-import Hero from './hero';
+import HeroClub from './hero-theclub';
+import HeroBreakfast from './hero-thebreakfast';
+import HeroOurLocations from './hero-ourlocations';
 
 const content = document.querySelector('.content');
 
 content.appendChild(new Navbar().navbar());
-content.appendChild(new Hero().hero());
+content.appendChild(new HeroClub().render());
+content.appendChild(new HeroBreakfast().render());
+content.appendChild(new HeroOurLocations().render());
 
 switchTab();
