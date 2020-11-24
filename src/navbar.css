@@ -1,0 +1,42 @@
+.navbar,
+.navbar__brand,
+.navbar__menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__brand,
+.menu__link {
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.navbar {
+  height: 50px;
+  padding: 0 30px;
+  justify-content: space-between;
+}
+
+.navbar__brand {
+  font-weight: 700;
+}
+
+.brand__logo {
+  height: 24px;
+  margin-right: 10px;
+}
+
+.menu__link {
+  color: #949396;
+  margin: 0 5px;
+}
+
+.navbar__brand,
+.menu__link:hover,
+.menu__link.active {
+  color: #000;
+}
+
+.menu__item {
+  list-style-type: none;
+}

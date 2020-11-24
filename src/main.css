@@ -1,0 +1,8 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('./navbar.css');
+@import url('./hero.css');
+
+body {
+  min-width: 768px;
+}
